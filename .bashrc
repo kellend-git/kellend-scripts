@@ -7,8 +7,12 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-CLASSPATH=$CLASSPATH:$HOME/CSE_446/446_hw3/weka-3-6-4/weka.jar
-export CLASSPATH
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi
 
 # Secrets
 umask 077
@@ -26,3 +30,13 @@ alias ..=' cd ..'
 
 alias vbrc='vim ~/.bashrc'
 alias sbrc='source ~/.bashrc'
+
+alias mx='chmod a+x'
+alias firefox='firefox 2>/dev/null &'
+
+# ls aliases
+alias ls='ls -h --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+
+export EDITOR=vim
