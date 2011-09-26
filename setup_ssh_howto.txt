@@ -1,0 +1,18 @@
+Kellen Donohue
+09-26-11
+setup_ssh_howto.txt
+
+This isn't a script - just a reminder for the commands to set up ssh-keys
+
+1) On the local machine: ssh-keygen -t dsa
+  Should probably have a passphrase, can set up ssh-agent so you don't have to
+   type this in every time
+  Save in the default location
+2) scp ~/.ssh/id_dsa.pub <hostmachine>:
+3) Log into the host machine: ssh <hostmachine>
+4) cat id_dsa.pub >> ~/.ssh/authorized_keys
+5) rm id_dsa.pub
+  # For clean up
+  
+# Make sure your authorized_keys is not group readable!
+# I have seen many CSE students with this exposed!
