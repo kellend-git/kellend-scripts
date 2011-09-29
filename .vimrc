@@ -21,3 +21,6 @@ autocmd BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
   \   exe "normal g`\"" |
       \ endif
+set incsearch ignorecase hlsearch
+" Press space to clear search highlighting and any message already displayed.
+nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
