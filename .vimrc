@@ -26,4 +26,5 @@ set incsearch ignorecase hlsearch
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
