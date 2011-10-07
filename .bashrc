@@ -39,4 +39,10 @@ alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
+# git aliases
+alias g='git'
+alias gs='git status'
+alias gcam='git commit -am'
+alias gf='git fetch'
+
 export EDITOR=vim
