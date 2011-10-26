@@ -49,4 +49,5 @@ alias gup='git fetch && git pull'
 alias gc='git commit'
 alias gl='git log'
 
+# You better not change this
 export EDITOR=vim
