@@ -48,6 +48,8 @@ alias gd='git diff'
 alias gup='git fetch && git pull'
 alias gc='git commit'
 alias gl='git log'
+alias gbr='git branch'
+alias gco='git checkout'
 
 # You better not change this
 export EDITOR=vim
