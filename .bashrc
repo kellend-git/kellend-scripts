@@ -18,7 +18,6 @@ fi
 umask 077
 
 # User specific aliases and functions
-alias office='/uns/opt/openoffice.org2.0/program/soffice'
 alias mc='mv'
 alias v='vim'
 alias sml='rlwrap sml -Cprint.length=1000'
