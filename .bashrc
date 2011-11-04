@@ -18,7 +18,6 @@ fi
 umask 077
 
 # User specific aliases and functions
-alias office='/uns/opt/openoffice.org2.0/program/soffice'
 alias mc='mv'
 alias v='vim'
 alias sml='rlwrap sml -Cprint.length=1000'
@@ -39,4 +38,17 @@ alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
+# git aliases
+alias g='git'
+alias gs='git status'
+alias gcam='git commit -am'
+alias gf='git fetch'
+alias gd='git diff'
+alias gup='git fetch && git pull'
+alias gc='git commit'
+alias gl='git log'
+alias gbr='git branch'
+alias gco='git checkout'
+
+# You better not change this
 export EDITOR=vim

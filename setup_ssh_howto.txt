@@ -16,3 +16,7 @@ This isn't a script - just a reminder for the commands to set up ssh-keys
   
 # Make sure your authorized_keys is not group readable!
 # I have seen many CSE students with this exposed!
+
+# If you overrode the existing identity on the local machine
+# then you will have to execute ssh-add to update to the new
+# identity.
