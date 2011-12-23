@@ -23,7 +23,7 @@ autocmd BufReadPost *
       \ endif
 set incsearch ignorecase hlsearch
 " Press space to clear search highlighting and any message already displayed.
-nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
+noremap <silent> <Space> :silent noh<Bar>echo<CR>
 set expandtab
 set tabstop=2
 set shiftwidth=2
