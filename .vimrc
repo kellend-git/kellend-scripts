@@ -5,7 +5,7 @@
 set smartindent
 set autochdir
 set backspace=indent,eol,start
-set mouse=a
+set mouse=a " Might cause your vim to hang on Cygwin
 set iskeyword+=_,$,@,%,# 
 set cursorline " highlight current line
 set number
