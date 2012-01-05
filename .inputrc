@@ -1,0 +1,6 @@
+# For a cygwin console insert these to get ctrl left arrow, etc. to work as expected
+
+"\e[5C": forward-word
+"\e[5D": backward-word
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
