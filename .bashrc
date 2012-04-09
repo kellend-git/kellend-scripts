@@ -50,5 +50,10 @@ alias gl='git log'
 alias gbr='git branch'
 alias gco='git checkout'
 
+# screen aliases
+alias sls='screen -ls'
+alias sr='screen -r'
+alias ss='screen -S'
+
 # You better not change this
 export EDITOR=vim
