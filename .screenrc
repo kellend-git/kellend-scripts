@@ -1,0 +1,17 @@
+# Kellen Donohue
+# 04-17-2012
+# .screenrc
+
+defscrollback 30000
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+
+# Redraw things, e.g. when vim eixts
+altscreen on
+
+# Detach on hang up
+autodetach on
+
+startup_message off
+shell -${SHELL}
