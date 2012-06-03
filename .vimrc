@@ -1,6 +1,6 @@
-# Kellen Donohue
-# 09-23-2011
-# .vimrc
+" Kellen Donohue
+" 09-23-2011
+" .vimrc
 
 set smartindent
 set autochdir
