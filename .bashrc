@@ -57,3 +57,5 @@ alias ss='screen -S'
 
 # You better not change this
 export EDITOR=vim
+
+TERM="ansi"
