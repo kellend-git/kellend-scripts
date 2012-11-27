@@ -2,6 +2,7 @@
 " 09-23-2011
 " .vimrc
 
+syntax on
 set smartindent
 set autochdir
 set backspace=indent,eol,start
