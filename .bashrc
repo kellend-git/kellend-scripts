@@ -55,6 +55,7 @@ alias sls='screen -ls'
 alias sr='screen -r'
 alias srd='screen -rD'
 alias ss='screen -S'
+alias sw='screem -wipe'
 
 # You better not change this
 export EDITOR=vim
