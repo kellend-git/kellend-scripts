@@ -53,6 +53,7 @@ alias gco='git checkout'
 # screen aliases
 alias sls='screen -ls'
 alias sr='screen -r'
+alias srd='screen -rD'
 alias ss='screen -S'
 
 # You better not change this
