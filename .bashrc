@@ -38,6 +38,11 @@ alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
+# Colors
+alias less='less -r'
+alias tree='tree -C'
+alias grep="grep --color=auto"
+
 # git aliases
 alias g='git'
 alias gs='git status'
