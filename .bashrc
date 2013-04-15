@@ -45,15 +45,17 @@ alias grep="grep --color=auto"
 
 # git aliases
 alias g='git'
-alias gs='git status'
-alias gcam='git commit -am'
-alias gf='git fetch'
-alias gd='git diff'
-alias gup='git fetch && git pull'
-alias gc='git commit'
-alias gl='git log'
+alias ga='git add'
 alias gbr='git branch'
+alias gc='git commit'
 alias gco='git checkout'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
+alias gd='git diff'
+alias gf='git fetch'
+alias gl='git log'
+alias gs='git status'
+alias gup='git fetch && git pull'
 
 # hg aliases
 alias h='hg'
