@@ -76,4 +76,6 @@ alias sw='screem -wipe'
 # You better not change this
 export EDITOR=vim
 
+source .sshinit
+
 TERM="ansi"
