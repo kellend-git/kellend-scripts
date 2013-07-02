@@ -80,5 +80,3 @@ alias sw='screem -wipe'
 export EDITOR=vim
 
 source .sshinit
-
-TERM="ansi"
