@@ -54,7 +54,7 @@ alias gcm='git commit -m'
 alias gd='git diff'
 alias gf='git fetch'
 alias gl='git log'
-alias grv'git checkout HEAD --'
+alias grv='git checkout HEAD --'
 alias gs='git status'
 alias gst='git stash'
 alias gsta='git stash apply'
@@ -79,4 +79,4 @@ alias sw='screem -wipe'
 # You better not change this
 export EDITOR=vim
 
-source .sshinit
+source ~/.sshinit
