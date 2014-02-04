@@ -7,6 +7,12 @@ defscrollback 30000
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
 
+# xterm is best term
+term xterm-color
+
+# For mouse scroll
+termcapinfo xterm* ti@:te=\E[2J
+
 # Redraw things, e.g. when vim eixts
 altscreen on
 
