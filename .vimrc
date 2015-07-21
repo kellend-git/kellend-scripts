@@ -30,3 +30,6 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+" Cursor column, toggle with \ then c
+:hi CursorColumn cterm=NONE ctermbg=21 ctermfg=white
+:nnoremap <Leader>c :set cursorcolumn!<CR>
