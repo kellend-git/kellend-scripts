@@ -20,4 +20,6 @@ altscreen on
 autodetach on
 
 startup_message off
-shell -${SHELL}
+
+# This line existed on attu, but it causes screen to start in ~, not $PWD, on OSX Mavericks. Removing it seems harmless
+# shell -${SHELL}
