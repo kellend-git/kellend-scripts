@@ -61,3 +61,9 @@ set shiftwidth=2
 " Cursor column, toggle with \ then c
 :hi CursorColumn cterm=NONE ctermbg=21 ctermfg=white
 :nnoremap <Leader>c :set cursorcolumn!<CR>
+
+" Home / End
+:map <Home> ^
+:imap <Home> <Esc>^i
+:map <End> $
+:imap <End> <Esc>^i
