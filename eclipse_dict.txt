@@ -1,1 +1,10 @@
 http
+namespace
+url
+api
+phoenix
+palantir
+kdonohue
+kellend
+endpoint
+backend
