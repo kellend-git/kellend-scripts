@@ -8,3 +8,5 @@ kdonohue
 kellend
 endpoint
 backend
+var
+const
