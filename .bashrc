@@ -82,3 +82,6 @@ alias sw='screen -wipe'
 
 # You better not change this
 export EDITOR=vim
+
+alias tarup='tar -vczf'
+alias tarout='tar -vxzf'
