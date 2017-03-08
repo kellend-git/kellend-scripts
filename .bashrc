@@ -46,7 +46,7 @@ alias grep="grep --color=auto"
 # git aliases
 alias g='git'
 alias ga='git add'
-alias gbr='git branch'
+alias gb='git branch'
 alias gc='git commit'
 alias gcam='git commit -am'
 alias gcamm='git commit -a --amend'
