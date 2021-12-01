@@ -83,3 +83,5 @@ export EDITOR=vim
 alias tarup='tar -vczf'
 alias untar='tar -vxzf'
 alias findn='find . -name'
+
+alias gw="./gradlew"
