@@ -24,6 +24,7 @@ alias xlock="xlock -bg blue -info \"To use this terminal: Ctrl-Alt-F6, login, Ex
 alias ...='cd ...'
 alias ..=' cd ..'
 
+# So named because used to be bash.
 alias vbrc='vim ~/.bashrc'
 alias sbrc='source ~/.bashrc'
 
