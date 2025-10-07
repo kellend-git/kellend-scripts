@@ -2,17 +2,12 @@
 # 2025-04-24
 # .zshrc
 
-
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
-
 # User specific aliases and functions
 alias mc='mv'
 alias v='vim'
+# Typing is hard
+alias bim='vim'
+alias cim='vim'
 alias sml='rlwrap sml -Cprint.length=1000'
 alias wireshark='/usr/sbin/wireshark'
 alias xlock="xlock -bg blue -info \"To use this terminal: Ctrl-Alt-F6, login, Execute: startx -- :2\""
