@@ -1,5 +1,5 @@
 " Kellen Donohue
-" 09-23-2011
+" 2011-09-23
 " .vimrc
 set nocompatible              " be iMproved, required
 filetype off                  " required
